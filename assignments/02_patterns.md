@@ -13,9 +13,10 @@
 
 ### Easy
 - [ ] Right-angled triangle (stars) — rows of increasing `*`
-- [ ] Inverted triangle — rows of decreasing `*`
+- [ ] Inverted Right-angled triangle — rows of decreasing `*`
 - [ ] Number triangle — `1 / 1 2 / 1 2 3 ...`
 - [ ] Floyd's triangle — consecutive numbers
+- [ ] Mirrored Right angle triangle
 
 ### Medium
 - [ ] Pyramid (centred stars)
