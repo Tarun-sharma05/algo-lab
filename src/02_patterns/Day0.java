@@ -11,7 +11,7 @@ public class Day0 {
     }
 
 
-    static void pattern1(int n) {
+    static void square(int n) {
         for (int row = 1; row <= n; row++) {
             for (int col = 1; col <= n; col++) {
                 System.out.print("*");
