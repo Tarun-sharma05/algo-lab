@@ -8,6 +8,9 @@ public class Day0 {
 
         System.out.println("\nInverted Right Angle Triangle");
         invertedRightAngleTriangle(5);
+
+        System.out.println("\nPyramid");
+        Pyramid(5);
     }
 
 
@@ -52,7 +55,46 @@ public class Day0 {
             System.out.println();
         }
     }
+
+    //       *
+    //      ***
+    //     *****
+    //    *******
+    //   *********
+    //
+   static void Pyramid(int n){
+       for (int row = 1; row <= n; row++) {
+           for (int col = 1; col <= n - row; col++) {
+               System.out.print(" ");
+           }
+           for (int frst_half_str = 1; frst_half_str <= row; frst_half_str++) {
+               System.out.print("*");
+           }
+           for (int second_half_str = 2; second_half_str <= row; second_half_str++){
+               System.out.print("*");
+
+           }
+           System.out.println();
+       }
+   }
+
+   //*********
+   // *******
+   //  *****
+   //   ***
+   //    *
+
+    static void invertedPyramid(int n){
+                for (int row  = 1; row <= n; row++ ) {
+
+                }
+    }
 }
+
+
+
+
+
 
 
 
