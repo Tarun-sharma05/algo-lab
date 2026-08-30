@@ -26,7 +26,7 @@ docs(assignments): tick completed questions
 ```
 
 ---
-
+    
 ## Progress
 
 | # | Topic | Easy | Medium | Hard |
