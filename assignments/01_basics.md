@@ -16,14 +16,14 @@
 ## Problems
 
 ### Easy
-- [ ] Hello World — print "Hello, World!"
-- [ ] Swap two numbers without a temp variable
-- [ ] Check even or odd
-- [ ] Find the maximum of 3 numbers
-- [ ] Check leap year
-- [ ] Reverse a number (e.g., 1234 → 4321)
-- [ ] Check Armstrong number (e.g., 153 = 1³+5³+3³)
-- [ ] Print multiplication table for a given number
+- [✓] Hello World — print "Hello, World!"
+- [✓] Swap two numbers without a temp variable
+- [✓] Check even or odd
+- [✓] Find the maximum of 3 numbers
+- [✓] Check leap year
+- [✓] Reverse a number (e.g., 1234 → 4321)
+- [✓] Check Armstrong number (e.g., 153 = 1³+5³+3³)
+- [✓] Print multiplication table for a given number
 
 ### Medium
 - [ ] Print all prime numbers up to N (Sieve of Eratosthenes)
