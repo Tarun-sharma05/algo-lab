@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class basics{
-    static void main(String[] args) {
+    static void main() {
         Scanner sc = new Scanner(System.in);
     ////////Swap two numbers without a temp variable  ///////////////
 //        Scanner sc = new Scanner(System.in);
@@ -52,6 +52,14 @@ public class basics{
 //        System.out.println("Enter number");
 //        int num = sc.nextInt();
 //        table(num);
+
+
+        /////////////// Prime Number ///////////////////
+        System.out.println("Enter number");
+        int num = sc.nextInt();
+        primeNumberList(num);
+
+
     }
 
 
@@ -184,6 +192,37 @@ public class basics{
             System.out.println(n + " X " + i + " = " + n*i);
         }
     }
+
+
+     ////////////////// Prime No  List ////////////////
+    static boolean primeNumber(int n){
+         int count = 0;
+
+         for (int i = 1; i <= n; i++){
+             if(n % i ==0){
+                 count = count+1;
+             }
+         }
+
+         if(count == 2){
+             return true;
+             //             System.out.println(n + " is a prime number.");
+         }else {
+             return false;
+//             System.out.println(n + " is not a prime number.");
+         }
+    }
+
+    static void primeNumberList(int n){
+        System.out.println("Prime Numbers from 1 to " + n + " : ");
+        for (int i = 1; i <= n; i++){
+            if(primeNumber(i)){
+                System.out.println(i);
+            }
+        }
+    }
+
+
 
 }
 

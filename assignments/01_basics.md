@@ -26,7 +26,7 @@
 - [✓] Print multiplication table for a given number
 
 ### Medium
-- [ ] Print all prime numbers up to N (Sieve of Eratosthenes)
+- [✓] Print all prime numbers up to N (Sieve of Eratosthenes)
 - [ ] Find GCD of two numbers (Euclidean algorithm)
 - [ ] Check if a number is a palindrome
 - [ ] Sum of digits of a number
