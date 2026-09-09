@@ -12,11 +12,11 @@
 ## Problems
 
 ### Easy
-- [ ] Right-angled triangle (stars) — rows of increasing `*`
-- [ ] Inverted Right-angled triangle — rows of decreasing `*`
-- [ ] Number triangle — `1 / 1 2 / 1 2 3 ...`
-- [ ] Floyd's triangle — consecutive numbers
-- [ ] Mirrored Right angle triangle
+- [X] Right-angled triangle (stars) — rows of increasing `*`
+- [X] Inverted Right-angled triangle — rows of decreasing `*`
+- [X] Number triangle — `1 / 1 2 / 1 2 3 ...`
+- [X] Floyd's triangle — consecutive numbers
+- [X] Mirrored Right angle triangle
 
 ### Medium
 - [ ] Pyramid (centred stars)

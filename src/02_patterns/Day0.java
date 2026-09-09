@@ -17,6 +17,9 @@ public class Day0 {
 
         System.out.println("\nInverted Pyramid");
         invertedPyramid(5);
+
+        System.out.println("\nHollow Square");
+        hollowSquare(5);
     }
 
 
@@ -113,6 +116,19 @@ public class Day0 {
             for (int second_half_str = 2; second_half_str <= row; second_half_str++){
                 System.out.print("*");
 
+            }
+            System.out.println();
+        }
+    }
+
+    static void hollowSquare(int n){
+        for (int row = 1; row <= n; row++){
+            for(int col = 1; col <= n; col++){
+                if (row == 1 || row == 5 || col == 1 || col == 5){
+                    System.out.print("* ");
+                }else {
+                    System.out.print("  ");
+                }
             }
             System.out.println();
         }
