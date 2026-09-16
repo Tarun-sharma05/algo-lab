@@ -25,6 +25,9 @@ public class Day0 {
         solidRombus(5);
         System.out.println("\nHollow Rectangle");
         hollowRectangle(4);
+
+        System.out.println("\nHollow Right Angle Triangle ");
+        hollowRightAnlgeTrianlge(5);
     }
 
 
@@ -188,6 +191,27 @@ public class Day0 {
                 }
             }
             System.out.println();
+        }
+    }
+
+    ///////////////// Hollow RIght Angle Triangle ///////////////
+    static void hollowRightAnlgeTrianlge(int n){
+        for (int row = 1; row <= n; row++){
+            if(row == 1 || row == 2 || row == n) {
+                for (int col = 1; col <=row; col++) {
+                    System.out.print("* ");
+                }
+            }else {
+                System.out.print("* ");
+
+                for (int sp = 1; sp <= row -2; sp++) {
+                    System.out.print("  ");
+                }
+                System.out.print("* ");
+
+                }
+            System.out.println();
+
         }
     }
 }
