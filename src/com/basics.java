@@ -55,10 +55,24 @@ public class basics{
 
 
         /////////////// Prime Number ///////////////////
-        System.out.println("Enter number");
-        int num = sc.nextInt();
-        primeNumberList(num);
+//        System.out.println("Enter number");
+//        int num = sc.nextInt();
+//        primeNumberList(num);
 
+//        System.out.println("Enter starting and ending number: ");
+//        int start = sc.nextInt();
+//        int end = sc.nextInt();
+//        System.out.println("Enter devider number: ");
+//        int devider = sc.nextInt();
+//        perfectlyDivisibleNum(start, end, devider);
+
+
+        for (int i =1; i <=4; i++) {
+            for (int j = 1; j <= 4; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
 
     }
 
@@ -217,6 +231,17 @@ public class basics{
         System.out.println("Prime Numbers from 1 to " + n + " : ");
         for (int i = 1; i <= n; i++){
             if(primeNumber(i)){
+                System.out.println(i);
+            }
+        }
+    }
+
+
+    //////////// Perfectly divisible by 7 //////////////////
+    static void perfectlyDivisibleNum(int start, int end, int devider){
+        System.out.println("Perfectly divisible by " + devider);
+        for (int i = start; i <= end; i++){
+            if(i % devider == 0){
                 System.out.println(i);
             }
         }

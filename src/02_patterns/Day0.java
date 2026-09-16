@@ -20,6 +20,11 @@ public class Day0 {
 
         System.out.println("\nHollow Square");
         hollowSquare(5);
+
+        System.out.println("\nSolid Rombus");
+        solidRombus(5);
+        System.out.println("\nHollow Rectangle");
+        hollowRectangle(4);
     }
 
 
@@ -106,16 +111,27 @@ public class Day0 {
    //    *
 
     static void invertedPyramid(int n){
-        for (int row = n; row >= 1; row--) {
-            for (int col = 1; col <= n - row; col++) {
-                System.out.print(" ");
-            }
-            for (int frst_half_str = 1; frst_half_str <= row; frst_half_str++) {
-                System.out.print("*");
-            }
-            for (int second_half_str = 2; second_half_str <= row; second_half_str++){
-                System.out.print("*");
+//        for (int row = n; row >= 1; row--) {
+//            for (int col = 1; col <= n - row; col++) {
+//                System.out.print(" ");
+//            }
+//            for (int frst_half_str = 1; frst_half_str <= row; frst_half_str++) {
+//                System.out.print("*");
+//            }
+//            for (int second_half_str = 2; second_half_str <= row; second_half_str++){
+//                System.out.print("*");
+//
+//            }
+//            System.out.println();
+//        }
 
+        for(int row = 1; row <=n; row++){
+            for (int spc = 1; spc <= row -1; spc++){
+                System.out.print("  ");
+            }
+            /// No. of star = 2N - row - no. of space | no. of spce  = row -1
+            for (int str = 1; str <=  2 * n - row - row-1; str++){
+                System.out.print("* ");
             }
             System.out.println();
         }
@@ -125,6 +141,47 @@ public class Day0 {
         for (int row = 1; row <= n; row++){
             for(int col = 1; col <= n; col++){
                 if (row == 1 || row == 5 || col == 1 || col == 5){
+                    System.out.print("* ");
+                }else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    //Solid Robus
+    /*
+            * * * * * *
+          * * * * * *
+        * * * * * *
+       * * * * *
+     * * * * *
+
+    * * */
+
+    static void solidRombus(int n){
+
+        for(int row = 1; row <= n; row++){
+            // Spaces
+            for(int sp = 1; sp <= n - row; sp++){
+                System.out.print("  ");
+            }
+            for(int str = 1; str <= n; str++){
+            System.out.print("* ");
+            }
+            System.out.println();
+
+        }
+    }
+
+
+    ///////// Hollow Rectangle ////////////////
+    static void hollowRectangle(int n){
+
+        for (int row = 1; row <= n; row++){
+            for(int col = 1; col <= 6; col++){
+                if(row == 1 || row == n || col == 1 || col == 6){
                     System.out.print("* ");
                 }else {
                     System.out.print("  ");
