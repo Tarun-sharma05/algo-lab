@@ -67,12 +67,8 @@ public class basics{
 //        perfectlyDivisibleNum(start, end, devider);
 
 
-        for (int i =1; i <=4; i++) {
-            for (int j = 1; j <= 4; j++) {
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+        //////// Pallindrome /////////
+        pallindrome(121);
 
     }
 
@@ -245,6 +241,33 @@ public class basics{
                 System.out.println(i);
             }
         }
+    }
+
+
+    ////////// GCD(HCF) of 2 no. using Euclidean algorithm /////////
+    static void gcd(int a, int b){
+
+        for (int i = 1; i<= a; i++){
+
+        }
+    }
+
+
+
+    ////////// Pallindrome ////////////////
+    static void pallindrome(int n){
+         int originalNum = n;
+         int reversedNumber = 0;
+        while(n > 0){
+            int reminder = n % 10;
+            reversedNumber = reversedNumber *  10 + reminder;
+
+            n = n/10;
+        }
+
+         if(originalNum == reversedNumber){
+             System.out.println("Palindrome Number: " + originalNum);
+         }
     }
 
 

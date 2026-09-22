@@ -1,33 +1,35 @@
 public class Day0 {
     public static void main(String[] args) {
-        System.out.println("Mirrored Right Angle Triangle");
-        mirroredRightAngleTriangle(4);
-
-        System.out.println("\nRight Angle Triangle");
-        rightAngleTriangle(5);
-
-        System.out.println("\nInverted Right Angle Triangle");
-        invertedRightAngleTriangle(5);
-
-        System.out.println("\nInverted Mirrored Right Angle Triangle");
-        invertedMirroredRightAngleTriangle(5);
-
-        System.out.println("\nPyramid");
-        Pyramid(5);
-
-        System.out.println("\nInverted Pyramid");
-        invertedPyramid(5);
-
-        System.out.println("\nHollow Square");
-        hollowSquare(5);
-
-        System.out.println("\nSolid Rombus");
-        solidRombus(5);
-        System.out.println("\nHollow Rectangle");
-        hollowRectangle(4);
-
-        System.out.println("\nHollow Right Angle Triangle ");
-        hollowRightAnlgeTrianlge(5);
+//        System.out.println("Mirrored Right Angle Triangle");
+//        mirroredRightAngleTriangle(4);
+//
+//        System.out.println("\nRight Angle Triangle");
+//        rightAngleTriangle(5);
+//
+//        System.out.println("\nInverted Right Angle Triangle");
+//        invertedRightAngleTriangle(5);
+//
+//        System.out.println("\nInverted Mirrored Right Angle Triangle");
+//        invertedMirroredRightAngleTriangle(5);
+//
+//        System.out.println("\nPyramid");
+//        Pyramid(5);
+//
+//        System.out.println("\nInverted Pyramid");
+//        invertedPyramid(5);
+//
+//        System.out.println("\nHollow Square");
+//        hollowSquare(5);
+//
+//        System.out.println("\nSolid Rombus");
+//        solidRombus(5);
+//        System.out.println("\nHollow Rectangle");
+//        hollowRectangle(4);
+//
+//        System.out.println("\nHollow Right Angle Triangle ");
+//        hollowRightAnlgeTrianlge(5);
+        System.out.println("\nHollow Pyramid");
+        hollowPyramid(5);
     }
 
 
@@ -213,6 +215,36 @@ public class Day0 {
             System.out.println();
 
         }
+    }
+
+    /////////// Hollow Pyramid    /////////////////
+    static void hollowPyramid(int n){
+         for(int row = 1; row <= n; row++){
+             ///// Part1 - Spaces
+          for(int col = 1; col <= n-row; col++){
+              System.out.print("  ");
+          }
+          //// Part 2 - first and Last row Stars
+          if (row == 1 || row == n){
+              for (int col = 1; col <= 2 * row-1; col++) {
+                  System.out.print("* ");
+              }
+          }
+          //// Part 3 - Starts and spaces between 1st and Nth Row /////
+          else {
+              /// Starting star
+              System.out.print("* ");
+              /// Space between the both stars = 2 x Row - 3
+              for (int col = 1; col <= 2* row - 3; col++) {
+                  System.out.print("  ");
+              }
+              /// Ending star
+              System.out.print("* ");
+          }
+            //// New Line after each row
+             System.out.println();
+         }
+
     }
 }
 
