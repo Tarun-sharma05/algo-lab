@@ -1,7 +1,7 @@
 # Greedy — Assignment
 
 > Source: Kunal Kushwaha Java + DSA Bootcamp + additional problems
-> Files go in: src/18_greedy/
+> Files go in: src/com.18_greedy/
 > Rule: solve on onlinegdb.com first, then copy to .java file here and commit.
 
 ## Concepts to learn first

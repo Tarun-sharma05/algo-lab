@@ -1,7 +1,7 @@
 # Queues — Assignment
 
 > Source: Kunal Kushwaha Java + DSA Bootcamp + additional problems
-> Files go in: src/12_queues/
+> Files go in: src/com.12_queues/
 > Rule: solve on onlinegdb.com first, then copy to .java file here and commit.
 
 ## Concepts to learn first

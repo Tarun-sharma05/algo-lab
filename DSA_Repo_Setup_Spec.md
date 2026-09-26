@@ -34,14 +34,14 @@ Create this exact hierarchy with `.gitkeep` in each `src/` subfolder:
 DSA/
 ├── README.md
 ├── src/
-│   ├── 01_basics/
-│   ├── 02_patterns/
-│   ├── 03_arrays/
-│   ├── 04_searching/
-│   ├── 05_sorting/
-│   ├── 06_strings/
-│   ├── 07_recursion/
-│   ├── 08_oop/
+│   ├── com.basics_01/
+│   ├── com.patterns/
+│   ├── com.arrays/
+│   ├── com.searching/
+│   ├── com.sorting/
+│   ├── com.strings/
+│   ├── com.recursion/
+│   ├── com.oop/
 │   │   ├── classes_objects/
 │   │   ├── constructors/
 │   │   ├── keywords/
@@ -50,51 +50,51 @@ DSA/
 │   │   ├── encapsulation/
 │   │   ├── abstraction/
 │   │   └── interfaces/
-│   ├── 09_collections/
-│   ├── 10_linked_list/
+│   ├── com.collections/
+│   ├── com.linked_list/
 │   │   ├── singly/
 │   │   ├── doubly/
 │   │   └── circular/
-│   ├── 11_stacks/
-│   ├── 12_queues/
-│   ├── 13_trees/
+│   ├── com.stacks/
+│   ├── com.queues/
+│   ├── com.trees/
 │   │   ├── binary_tree/
 │   │   ├── bst/
 │   │   └── avl/
-│   ├── 14_heaps/
-│   ├── 15_hashing/
-│   ├── 16_graphs/
+│   ├── com.heaps/
+│   ├── com.hashing/
+│   ├── com.graphs/
 │   │   ├── representation/
 │   │   ├── bfs/
 │   │   ├── dfs/
 │   │   └── shortest_path/
-│   ├── 17_dynamic_programming/
+│   ├── com.dynamic_programming/
 │   │   ├── memoization/
 │   │   └── tabulation/
-│   ├── 18_greedy/
-│   ├── 19_backtracking/
-│   └── 20_tries/
+│   ├── com.greedy/
+│   ├── com.backtracking/
+│   └── com.tries/
 ├── assignments/
-│   ├── 01_basics.md
-│   ├── 02_patterns.md
-│   ├── 03_arrays.md
-│   ├── 04_searching.md
-│   ├── 05_sorting.md
-│   ├── 06_strings.md
-│   ├── 07_recursion.md
-│   ├── 08_oop.md
-│   ├── 09_collections.md
-│   ├── 10_linked_list.md
-│   ├── 11_stacks.md
-│   ├── 12_queues.md
-│   ├── 13_trees.md
-│   ├── 14_heaps.md
-│   ├── 15_hashing.md
-│   ├── 16_graphs.md
-│   ├── 17_dynamic_programming.md
-│   ├── 18_greedy.md
-│   ├── 19_backtracking.md
-│   └── 20_tries.md
+│   ├── com.basics_01.md
+│   ├── com.patterns.md
+│   ├── com.03_arrays.md
+│   ├── com.searching.md
+│   ├── com.05_sorting.md
+│   ├── com.06_strings.md
+│   ├── com.07_recursion.md
+│   ├── com.08_oop.md
+│   ├── com.09_collections.md
+│   ├── com.10_linked_list.md
+│   ├── com.11_stacks.md
+│   ├── com.12_queues.md
+│   ├── com.13_trees.md
+│   ├── com.14_heaps.md
+│   ├── com.15_hashing.md
+│   ├── com.16_graphs.md
+│   ├── com.17_dynamic_programming.md
+│   ├── com.18_greedy.md
+│   ├── com.19_backtracking.md
+│   └── com.tries.md
 └── notes/
     ├── time_complexity_cheatsheet.md
     ├── java_syntax_cheatsheet.md
@@ -149,7 +149,7 @@ For each assignment file use this format:
 - [ ] #number — Problem name
 ```
 
-### 01_basics.md
+### com.basics_01.md
 **Concepts:** variables, datatypes (int/long/double/char/boolean/String), type casting,
 Scanner input, operators, if/else, switch, for/while/do-while, methods/functions
 
@@ -162,7 +162,7 @@ check if number is palindrome, sum of digits, convert decimal to binary
 
 ---
 
-### 02_patterns.md
+### com.patterns.md
 **Concepts:** nested for loops, `System.out.print` vs `println`
 
 **Easy:** right-angled triangle (stars), inverted triangle,
@@ -174,7 +174,7 @@ number triangle (1 / 1 2 / 1 2 3...), Floyd's triangle
 
 ---
 
-### 03_arrays.md
+### com.03_arrays.md
 **Concepts:** declaration, initialization, traversal, `Arrays.sort`, `Arrays.fill`,
 multi-dimensional arrays, time complexity of operations
 
@@ -191,7 +191,7 @@ find duplicate, merge two sorted arrays, find missing number in 1..N
 
 ---
 
-### 04_searching.md
+### com.searching.md
 **Concepts:** linear search, binary search (iterative + recursive),
 binary search on answer concept
 
@@ -207,7 +207,7 @@ find element in nearly sorted array
 
 ---
 
-### 05_sorting.md
+### com.05_sorting.md
 **Concepts:** stability, in-place, time and space complexity of each algorithm
 
 **Easy:** bubble sort (write from scratch), selection sort (write from scratch),
@@ -223,7 +223,7 @@ why quick sort preferred in practice
 
 ---
 
-### 06_strings.md
+### com.06_strings.md
 **Concepts:** String immutability, String pool, StringBuilder vs String,
 charAt, length, substring, toCharArray, split, trim, compareTo, equals vs ==
 
@@ -239,7 +239,7 @@ check if string is rotation of another
 
 ---
 
-### 07_recursion.md
+### com.07_recursion.md
 **Concepts:** base case, recursive case, call stack, stack overflow,
 recursion vs iteration, tail recursion
 
@@ -256,7 +256,7 @@ generate all subsets, generate all permutations
 
 ---
 
-### 08_oop.md
+### com.08_oop.md
 **Concepts:** class, object, constructor (default/parameterized/copy),
 this, super, static, final keywords, 4 pillars of OOP,
 interface, abstract class, method overriding vs overloading,
@@ -276,7 +276,7 @@ Library management system (Book, Member, Library classes)
 
 ---
 
-### 09_collections.md
+### com.09_collections.md
 **Concepts:** Collections Framework hierarchy, List/Set/Map/Queue interfaces,
 ArrayList, LinkedList, Stack, ArrayDeque, PriorityQueue,
 HashMap, LinkedHashMap, TreeMap, HashSet, TreeSet, Iterator
@@ -295,7 +295,7 @@ sort a Map by value
 
 ---
 
-### 10_linked_list.md
+### com.10_linked_list.md
 **Concepts:** Node structure, head pointer, singly vs doubly vs circular,
 time complexity vs arrays
 
@@ -317,7 +317,7 @@ find intersection of two lists, copy list with random pointer
 
 ---
 
-### 11_stacks.md
+### com.11_stacks.md
 **Concepts:** LIFO, push/pop/peek/isEmpty, array-backed vs linked-list-backed,
 monotonic stack
 
@@ -332,7 +332,7 @@ reverse string using stack
 
 ---
 
-### 12_queues.md
+### com.12_queues.md
 **Concepts:** FIFO, enqueue/dequeue/peek/isEmpty, circular queue,
 deque (double-ended), priority queue (heap-backed)
 
@@ -348,7 +348,7 @@ BFS preview (use Queue)
 
 ---
 
-### 13_trees.md
+### com.13_trees.md
 **Concepts:** binary tree node structure, height/depth/level,
 complete/full/perfect/balanced binary tree, BST property, traversals
 
@@ -367,7 +367,7 @@ kth smallest, sorted array to BST, inorder successor
 
 ---
 
-### 14_heaps.md
+### com.14_heaps.md
 **Concepts:** min heap vs max heap, heap property, heapify,
 PriorityQueue in Java (min heap default), custom comparator for max heap
 
@@ -381,7 +381,7 @@ top K frequent elements, find median from data stream
 
 ---
 
-### 15_hashing.md
+### com.15_hashing.md
 **Concepts:** hash function, collision handling (chaining vs open addressing),
 Java HashMap internals, O(1) average time complexity
 
@@ -396,7 +396,7 @@ two sum using hashing, find duplicates, first non-repeating character, word freq
 
 ---
 
-### 16_graphs.md
+### com.16_graphs.md
 **Concepts:** directed vs undirected, weighted vs unweighted,
 adjacency matrix vs adjacency list, BFS, DFS, topological sort
 
@@ -415,7 +415,7 @@ strongly connected components (Kosaraju's)
 
 ---
 
-### 17_dynamic_programming.md
+### com.17_dynamic_programming.md
 **Concepts:** overlapping subproblems, optimal substructure,
 memoization (top-down) vs tabulation (bottom-up), state definition
 
@@ -432,7 +432,7 @@ matrix chain multiplication, subset sum
 
 ---
 
-### 18_greedy.md
+### com.18_greedy.md
 **Concepts:** greedy choice property, locally optimal = globally optimal,
 when greedy works vs when DP needed
 
@@ -446,7 +446,7 @@ minimum platforms (interval scheduling), gas station problem
 
 ---
 
-### 19_backtracking.md
+### com.19_backtracking.md
 **Concepts:** decision tree, pruning, state space tree, recursion + undo step
 
 **Easy:** all subsets, all permutations of string, all valid parentheses combinations
@@ -459,7 +459,7 @@ word search in grid, letter combinations of phone number
 
 ---
 
-### 20_tries.md
+### com.tries.md
 **Concepts:** trie node structure (children array or HashMap),
 insert, search, startsWith operations, time/space vs HashMap
 

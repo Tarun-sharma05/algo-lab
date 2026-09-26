@@ -1,7 +1,7 @@
 # Graphs — Assignment
 
 > Source: Kunal Kushwaha Java + DSA Bootcamp + additional problems
-> Files go in: src/16_graphs/  (subfolders: representation, bfs, dfs, shortest_path)
+> Files go in: src/com.16_graphs/  (subfolders: representation, bfs, dfs, shortest_path)
 > Rule: solve on onlinegdb.com first, then copy to .java file here and commit.
 
 ## Concepts to learn first

@@ -1,7 +1,7 @@
 # Hashing — Assignment
 
 > Source: Kunal Kushwaha Java + DSA Bootcamp + additional problems
-> Files go in: src/15_hashing/
+> Files go in: src/com.15_hashing/
 > Rule: solve on onlinegdb.com first, then copy to .java file here and commit.
 
 ## Concepts to learn first

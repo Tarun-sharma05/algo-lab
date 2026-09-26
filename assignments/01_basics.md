@@ -1,7 +1,7 @@
 # Basics — Assignment
 
 > Source: Kunal Kushwaha Java + DSA Bootcamp + additional problems
-> Files go in: src/01_basics/
+> Files go in: src/com.basics_01/
 > Rule: solve on onlinegdb.com first, then copy to .java file here and commit.
 
 ## Concepts to learn first
@@ -33,6 +33,6 @@
 - [ ] Convert decimal to binary (without built-in)
 
 ### Hard / Advanced
-- [ ] Print Fibonacci series up to N terms (iterative)
+- [✓] Print Fibonacci series up to N terms (iterative)
 - [ ] Find all factors of a number
-- [ ] Count number of digits in a number
+- [✓] Count number of digits in a number

@@ -1,7 +1,7 @@
 # Arrays — Assignment
 
 > Source: Kunal Kushwaha Java + DSA Bootcamp + additional problems
-> Files go in: src/03_arrays/
+> Files go in: src/com.03_arrays/
 > Rule: solve on onlinegdb.com first, then copy to .java file here and commit.
 
 ## Concepts to learn first
@@ -14,7 +14,7 @@
 ## Problems
 
 ### Easy
-- [ ] Reverse array without built-in
+- [✓] Reverse array without built-in
 - [ ] Find max and min in an array
 - [ ] Find second largest element
 - [ ] Check if array is sorted

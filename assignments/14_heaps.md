@@ -1,7 +1,7 @@
 # Heaps — Assignment
 
 > Source: Kunal Kushwaha Java + DSA Bootcamp + additional problems
-> Files go in: src/14_heaps/
+> Files go in: src/com.14_heaps/
 > Rule: solve on onlinegdb.com first, then copy to .java file here and commit.
 
 ## Concepts to learn first

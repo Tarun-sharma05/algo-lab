@@ -1,7 +1,7 @@
 # Trees — Assignment
 
 > Source: Kunal Kushwaha Java + DSA Bootcamp + additional problems
-> Files go in: src/13_trees/  (subfolders: binary_tree, bst, avl)
+> Files go in: src/com.13_trees/  (subfolders: binary_tree, bst, avl)
 > Rule: solve on onlinegdb.com first, then copy to .java file here and commit.
 
 ## Concepts to learn first

@@ -1,7 +1,7 @@
 # Recursion — Assignment
 
 > Source: Kunal Kushwaha Java + DSA Bootcamp + additional problems
-> Files go in: src/07_recursion/
+> Files go in: src/com.07_recursion/
 > Rule: solve on onlinegdb.com first, then copy to .java file here and commit.
 
 ## Concepts to learn first

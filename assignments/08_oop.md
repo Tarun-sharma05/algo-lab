@@ -1,7 +1,7 @@
 # OOP — Assignment
 
 > Source: Kunal Kushwaha Java + DSA Bootcamp + additional problems
-> Files go in: src/08_oop/  (use subfolders: classes_objects, constructors, keywords, inheritance, polymorphism, encapsulation, abstraction, interfaces)
+> Files go in: src/com.08_oop/  (use subfolders: classes_objects, constructors, keywords, inheritance, polymorphism, encapsulation, abstraction, interfaces)
 > Rule: solve on onlinegdb.com first, then copy to .java file here and commit.
 
 ## Concepts to learn first

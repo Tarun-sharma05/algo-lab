@@ -1,7 +1,7 @@
 # Strings — Assignment
 
 > Source: Kunal Kushwaha Java + DSA Bootcamp + additional problems
-> Files go in: src/06_strings/
+> Files go in: src/com.06_strings/
 > Rule: solve on onlinegdb.com first, then copy to .java file here and commit.
 
 ## Concepts to learn first
